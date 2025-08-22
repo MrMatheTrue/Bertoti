@@ -1,10 +1,10 @@
-1.
+- Exercicio 1
 
 O primeiro trecho fala sobre a diferença entre “programar” e “engenharia de software”. Embora no dia a dia as pessoas usem esses termos como se fossem a mesma coisa, na prática eles têm significados e implicações diferentes. Programar é o ato de escrever código, muitas vezes focado em resolver um problema imediato. Já a engenharia de software traz um peso maior, pois envolve aplicar conhecimento teórico para criar algo real, estruturado e confiável — assim como fazem engenheiros mecânicos, civis ou aeronáuticos.
 
 A diferença é que, nessas engenharias mais tradicionais, existem regras rígidas e práticas muito bem estabelecidas, porque um erro pode causar danos físicos graves. Na programação, historicamente, não houve a mesma rigidez. Mas hoje, como o software está presente em praticamente todas as áreas da vida, precisamos aplicar métodos mais rigorosos para que o que desenvolvemos seja seguro, confiável e mantenha qualidade com o tempo.
 
-2.
+- Exercicio 2
 
 O segundo trecho amplia a visão de engenharia de software, mostrando que não se trata apenas de escrever código, mas também de pensar no conjunto de práticas, processos e ferramentas que garantem que esse código continue útil e sustentável ao longo do tempo. É como se “engenharia de software” fosse “programação integrada ao tempo” — considerando todo o ciclo de vida do software: criação, manutenção, evolução e até a desativação.
 
@@ -17,7 +17,8 @@ Escala e crescimento – prever como a organização e o sistema vão evoluir à
 
 Trade-offs e custos – fazer escolhas conscientes entre alternativas, avaliando o impacto de longo prazo.
 
-3.
+- Exercicio 3
+
 Exemplo Trade-off
 
 Exemplo 1 – Velocidade de entrega vs. Qualidade do código
@@ -29,11 +30,13 @@ Uma arquitetura mais complexa pode resolver problemas sofisticados e permitir es
 Exemplo 3 – Otimização de desempenho vs. Clareza do código
 Existem situações em que posso escrever um código super otimizado para ganhar alguns milissegundos de performance. Mas, para isso, preciso usar técnicas mais complexas ou menos legíveis. O risco é que, no futuro, eu ou outro desenvolvedor não entendamos tão facilmente o que foi feito, o que complica ajustes e correções. Então, devo decidir: vale sacrificar a clareza para ter um ganho pequeno de performance ou é melhor deixar o código mais claro e fácil de manter?
 
-4.
-!(https://github.com/MrMatheTrue/Bertoti/blob/main/img/EXERCICIO%204.png)
+- Exercicio 4
+
+![Diagrama UML](https://github.com/MrMatheTrue/Bertoti/blob/main/img/EXERCICIO%204.png)
 
 
-5.
+- Exercicio 5
+
 Student.java
 
 public class Student {
@@ -68,6 +71,8 @@ public class Main {
 
 
 
-6.
+- Exercicio 6
+
+![Imagem Teste](https://github.com/MrMatheTrue/Bertoti/blob/main/img/exercicio6.png)
 
 
