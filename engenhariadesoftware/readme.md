@@ -42,14 +42,58 @@ Student.java
 public class Student {
     private String id;
     private String name;
+    private String email;
 
-    public Student(String id, String name) {
+    public Student(String id, String name, String email) {
         this.id = id;
         this.name = name;
+        this.email = email;
     }
 
     public String getId() { return id; }
     public String getName() { return name; }
+    public String getEmail() { return email; }
+}
+
+
+Teacher.java
+
+public class Teacher {
+    private String id;
+    private String name;
+    private String email;
+
+    public Teacher(String id, String name, String email) {
+        this.id = id;
+        this.name = name;
+        this.email = email;
+    }
+
+    public String getId() { return id; }
+    public String getName() { return name; }
+    public String getEmail() { return email; }
+}
+
+
+Course.java
+
+public class Course {
+    private String id;
+    private String name;
+    private int workloadHours;
+    private Teacher teacher;
+
+    public Course(String id, String name, int workloadHours, Teacher teacher) {
+        this.id = id;
+        this.name = name;
+        this.workloadHours = workloadHours;
+        this.teacher = teacher;
+    }
+
+    public String getId() { return id; }
+    public String getName() { return name; }
+    public int getWorkloadHours() { return workloadHours; }
+    public Teacher getTeacher() { return teacher; }
 }
 
 
@@ -59,20 +103,28 @@ Main.java
 
 public class Main {
     public static void main(String[] args) {
-        Student s = new Student("1", "João");
+        // Criar professor
+        Teacher t = new Teacher("T1", "Ana", "ana@escola.com");
 
-        if ("1".equals(s.getId()) && "João".equals(s.getName())) {
-            System.out.println("Teste passou!");
-        } else {
-            System.out.println("Teste falhou!");
-        }
+        // Criar curso com professor
+        Course c = new Course("C1", "Algoritmos", 60, t);
+
+        // Criar aluno
+        Student s = new Student("S1", "João", "joao@aluno.com");
+
+        // Teste simples
+        System.out.println("Aluno: " + s.getId() + " - " + s.getName() + " - " + s.getEmail());
+        System.out.println("Professor: " + c.getTeacher().getName());
+        System.out.println("Curso: " + c.getName() + " (" + c.getWorkloadHours() + "h)");
     }
 }
+
 
 
 
 - Exercicio 6
 
 ![Imagem Teste](https://github.com/MrMatheTrue/Bertoti/blob/main/img/exercicio6.png)
+
 
 
