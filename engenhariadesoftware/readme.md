@@ -31,3 +31,43 @@ Existem situações em que posso escrever um código super otimizado para ganhar
 
 4.
 !(https://github.com/MrMatheTrue/Bertoti/blob/main/img/EXERCICIO%204.png)
+
+
+5.
+Student.java
+
+public class Student {
+    private String id;
+    private String name;
+
+    public Student(String id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+
+    public String getId() { return id; }
+    public String getName() { return name; }
+}
+
+
+
+
+Main.java
+
+public class Main {
+    public static void main(String[] args) {
+        Student s = new Student("1", "João");
+
+        if ("1".equals(s.getId()) && "João".equals(s.getName())) {
+            System.out.println("Teste passou!");
+        } else {
+            System.out.println("Teste falhou!");
+        }
+    }
+}
+
+
+
+6.
+
+
