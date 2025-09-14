@@ -128,3 +128,15 @@ public class Main {
 
 
 
+- Exercicio 7
+
+  https://github.com/MrMatheTrue/Bertoti/tree/main/engenhariadesoftware/exercicio-7
+
+
+
+- Exercicio 8
+
+https://github.com/MrMatheTrue/Bertoti/tree/main/engenhariadesoftware/exercicio-8
+
+
+
