@@ -163,7 +163,7 @@ class Level {
 Instructor "1" <.. "0..*" Subject : teaches
 Subject ..> Level : uses
 
-
+https://github.com/MrMatheTrue/Bertoti/tree/main/engenhariadesoftware/exercicio%206/school-variant-min
 
 
 - Exercicio 7
@@ -175,6 +175,7 @@ Subject ..> Level : uses
 - Exercicio 8
 
 https://github.com/MrMatheTrue/Bertoti/tree/main/engenhariadesoftware/exercicio-8
+
 
 
 
