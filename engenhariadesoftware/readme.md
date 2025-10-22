@@ -31,17 +31,46 @@ Exemplo 3 – Otimização de desempenho vs. Clareza do código
 Existem situações em que posso escrever um código super otimizado para ganhar alguns milissegundos de performance. Mas, para isso, preciso usar técnicas mais complexas ou menos legíveis. O risco é que, no futuro, eu ou outro desenvolvedor não entendamos tão facilmente o que foi feito, o que complica ajustes e correções. Então, devo decidir: vale sacrificar a clareza para ter um ganho pequeno de performance ou é melhor deixar o código mais claro e fácil de manter?
 
 - Exercicio 4
-school-min/
-├─ pom.xml
-└─ src/
-   └─ main/
-      ├─ java/
-      │  └─ com/example/school/
-      │     ├─ App.java
-      │     ├─ Student.java
-      │     ├─ Teacher.java
-      │     └─ Course.java
-      └─ resources/
+```mermaid
+classDiagram
+direction LR
+
+class Student{
+  - id: String
+  - name: String
+  - email: String
+  + getId(): String
+  + getName(): String
+  + getEmail(): String
+}
+
+class Teacher{
+  - id: String
+  - name: String
+  - email: String
+  + getId(): String
+  + getName(): String
+  + getEmail(): String
+}
+
+class Course{
+  - id: String
+  - name: String
+  - workloadHours: int
+  - teacher: Teacher
+  - students: List~Student~
+  + getId(): String
+  + getName(): String
+  + getWorkloadHours(): int
+  + getTeacher(): Teacher
+  + getStudents(): List~Student~
+  + setTeacher(t: Teacher): void
+  + addStudent(s: Student): void
+}
+
+%% Relações
+Teacher "1" <.. "0..*" Course : teaches
+Course  "0..*" --> "0..*" Student : enrolls
 (https://github.com/MrMatheTrue/Bertoti/tree/main/engenhariadesoftware/exercicio%204/school-min)
 
 
@@ -147,6 +176,7 @@ public class Main {
 - Exercicio 8
 
 https://github.com/MrMatheTrue/Bertoti/tree/main/engenhariadesoftware/exercicio-8
+
 
 
 
