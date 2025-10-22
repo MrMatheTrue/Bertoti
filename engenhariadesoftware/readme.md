@@ -31,10 +31,6 @@ Exemplo 3 – Otimização de desempenho vs. Clareza do código
 Existem situações em que posso escrever um código super otimizado para ganhar alguns milissegundos de performance. Mas, para isso, preciso usar técnicas mais complexas ou menos legíveis. O risco é que, no futuro, eu ou outro desenvolvedor não entendamos tão facilmente o que foi feito, o que complica ajustes e correções. Então, devo decidir: vale sacrificar a clareza para ter um ganho pequeno de performance ou é melhor deixar o código mais claro e fácil de manter?
 
 - Exercicio 4
-```mermaid
-classDiagram
-direction LR
-
 class Student{
   - id: String
   - name: String
@@ -176,6 +172,7 @@ public class Main {
 - Exercicio 8
 
 https://github.com/MrMatheTrue/Bertoti/tree/main/engenhariadesoftware/exercicio-8
+
 
 
 
