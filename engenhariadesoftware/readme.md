@@ -31,7 +31,8 @@ Exemplo 3 – Otimização de desempenho vs. Clareza do código
 Existem situações em que posso escrever um código super otimizado para ganhar alguns milissegundos de performance. Mas, para isso, preciso usar técnicas mais complexas ou menos legíveis. O risco é que, no futuro, eu ou outro desenvolvedor não entendamos tão facilmente o que foi feito, o que complica ajustes e correções. Então, devo decidir: vale sacrificar a clareza para ter um ganho pequeno de performance ou é melhor deixar o código mais claro e fácil de manter?
 
 - Exercicio 4
-class Student{
+  
+class Student {
   - id: String
   - name: String
   - email: String
@@ -40,7 +41,7 @@ class Student{
   + getEmail(): String
 }
 
-class Teacher{
+class Teacher {
   - id: String
   - name: String
   - email: String
@@ -49,24 +50,27 @@ class Teacher{
   + getEmail(): String
 }
 
-class Course{
+class Course {
   - id: String
   - name: String
   - workloadHours: int
   - teacher: Teacher
-  - students: List~Student~
+  - students: List<Student>
   + getId(): String
   + getName(): String
   + getWorkloadHours(): int
   + getTeacher(): Teacher
-  + getStudents(): List~Student~
+  + getStudents(): List<Student>
   + setTeacher(t: Teacher): void
   + addStudent(s: Student): void
 }
 
-%% Relações
-Teacher "1" <.. "0..*" Course : teaches
-Course  "0..*" --> "0..*" Student : enrolls
+' Um professor pode ministrar vários cursos; cada curso tem 1 professor
+Teacher "1" <-- "0..*" Course : teaches
+
+' Curso mantém uma lista de alunos (associação unidirecional)
+Course  "0..*" --> "0..*" Student : enrolls >
+
 (https://github.com/MrMatheTrue/Bertoti/tree/main/engenhariadesoftware/exercicio%204/school-min)
 
 
@@ -172,6 +176,7 @@ public class Main {
 - Exercicio 8
 
 https://github.com/MrMatheTrue/Bertoti/tree/main/engenhariadesoftware/exercicio-8
+
 
 
 
