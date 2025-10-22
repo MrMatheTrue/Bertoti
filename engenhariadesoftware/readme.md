@@ -130,7 +130,39 @@ https://github.com/MrMatheTrue/Bertoti/tree/main/engenhariadesoftware/exercicio%
 
 - Exercicio 6
 
-![Imagem Teste](https://github.com/MrMatheTrue/Bertoti/blob/main/img/exercicio6.png)
+classDiagram
+direction LR
+
+class Instructor{
+  - id: UUID
+  - fullName: String
+  - email: String
+}
+
+class Subject{
+  - id: UUID
+  - title: String
+  - hours: short
+  - level: Level
+  - instructor: Instructor
+}
+
+class Learner{
+  - id: UUID
+  - fullName: String
+  - email: String
+}
+
+class Level {
+<<enumeration>>
+  BEGINNER
+  INTERMEDIATE
+  ADVANCED
+}
+
+Instructor "1" <.. "0..*" Subject : teaches
+Subject ..> Level : uses
+
 
 
 
@@ -143,6 +175,7 @@ https://github.com/MrMatheTrue/Bertoti/tree/main/engenhariadesoftware/exercicio%
 - Exercicio 8
 
 https://github.com/MrMatheTrue/Bertoti/tree/main/engenhariadesoftware/exercicio-8
+
 
 
 
