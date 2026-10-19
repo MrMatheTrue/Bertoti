@@ -507,8 +507,6 @@ O repositório da documentação referencia a aplicação como **submódulo Git*
 
 ## 🔧 Contribuições pessoais
 
-> Os trechos abaixo são código real do repositório [`LizardsDBA/flow-track`](https://github.com/LizardsDBA/flow-track).
-
 <details open>
 <summary><b>1. Detecção de abastecimento anômalo com validação contra preço de mercado</b></summary>
 <br>
@@ -1005,8 +1003,6 @@ function parseDecimalBR(valor) {                               // "1.234,56" →
 
 **Números do projeto:** 9 user stories · 46 story points · 11 tabelas · 9 controladores REST · 8 serviços · 10 telas · 230 commits · 3 sprints · 9 integrantes.
 
-> 💡 Se o parceiro fornecer medições (tempo de consolidação antes/depois, nº de registros migrados), acrescente aqui — dado quantitativo do cliente é o item de maior peso nesta seção.
-
 ---
 
 ## 📚 Hard skills
@@ -1054,8 +1050,6 @@ function parseDecimalBR(valor) {                               // "1.234,56" →
 | O schema é gerado pelo Hibernate | Usaria Flyway ou Liquibase para tornar a evolução do banco reprodutível e versionada |
 | O projeto não tem testes automatizados | Cobriria ao menos as regras críticas — detecção de anomalia, patamares de alerta e compatibilidade de CNH |
 
-> Esta seção existe porque reconhecer o débito técnico do próprio código é o que separa quem entregou de quem entendeu o que entregou.
-
 ---
 
 ## 📄 Documentação técnica do projeto
@@ -1073,10 +1067,8 @@ function parseDecimalBR(valor) {                               // "1.234,56" →
 
 ## 📦 Demais semestres
 
-> Mantenha exatamente a mesma sequência de seções usada no FlowTrack — a padronização entre semestres é critério de avaliação do TG.
-
 <details>
-<summary><b>Modelo de bloco por semestre (copiar e preencher)</b></summary>
+<summary><b>Modelo de bloco por semestre</b></summary>
 <br>
 
 ```markdown
