@@ -30,9 +30,24 @@
 
 ## 👤 Sobre mim
 
-> _Substitua pelos seus parágrafos. A ordem abaixo é a que funciona melhor: o que faço hoje → como cheguei aqui → o que me interessa tecnicamente → onde quero chegar._
+### Da quadra para o código
 
-Estudante de **Tecnologia em Banco de Dados** na FATEC São José dos Campos, com foco em **desenvolvimento back-end** e **modelagem e administração de bancos de dados relacionais**.
+**Treze anos dedicados ao handebol de alto rendimento** me ensinaram disciplina, trabalho em equipe e resiliência. Defendi a **Seleção Brasileira** nas categorias Juvenil e Júnior e atuei em clubes europeus até os 21 anos.
+
+A transição para a tecnologia foi natural: a mesma mentalidade que me levou às quadras da Europa trouxe resultados rápidos na programação. **Seis meses após iniciar a graduação**, conquistei meu primeiro estágio na **Antolin**, multinacional do setor automotivo.
+
+Desde então, venho construindo uma base sólida em **dados e desenvolvimento**:
+
+- **Analytics de Dados** na Ouvidoria do **Santander**
+- **Analista de Dados** na **Sabesp** (via prestadora)
+- **Gerente de Projetos e Desenvolvedor** na **Marcelo Melo Building Support**
+- **Desenvolvedor FullStack** na **DRM Educação**, com foco em back-end
+
+Hoje aplico a mesma dedicação que me tornou atleta profissional para resolver problemas complexos com código. Acredito que **grandes desafios exigem comprometimento total** — seja na quadra ou no desenvolvimento de software.
+
+---
+
+Atualmente curso **Tecnologia em Banco de Dados** na FATEC São José dos Campos, com foco em **desenvolvimento back-end** e **modelagem e administração de bancos de dados relacionais**.
 
 Ao longo da graduação atuo nos projetos integradores (API) com empresas parceiras reais, aplicando **Scrum** em três sprints por semestre — do levantamento de requisitos com o cliente até a entrega em produção e a apresentação na Feira de Soluções.
 
